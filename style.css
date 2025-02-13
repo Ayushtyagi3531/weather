@@ -1,0 +1,53 @@
+.card-weather {
+    width: 400px; /* Fixed width for the card */
+}
+
+.btn-lg.rounded-circle {
+    width: 60px;
+    height: 60px; 
+}
+
+.search-icon {
+    width: 30px;
+    height: 30px; 
+    
+}
+.btn{
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(149, 149, 247);
+    border-color: black;
+}
+.title{
+    color: red
+}
+.weather{
+    display:none;
+}
+
+.weather-icon {
+    width: 100px; /* Width for the weather icon */
+}
+
+
+
+.small-text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-top: 10px; /* Slightly smaller font size for labels */
+}
+.card {
+    background-color: #b0e080; /* Light gray or any color you prefer */
+    border-radius: 10px; /* Optional */
+}
+.text{
+    font-size: 1.3rem; 
+}
+
+.small-icon {
+    padding: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 80px;
+    height: 80px;
+}

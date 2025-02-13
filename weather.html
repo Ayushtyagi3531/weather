@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4 shadow-lg card-weather">
+            <h2 class="text-center title mb-4">Weather App</h2>
+            <div class="search mb-4">
+                <form action="" class="form-inline d-flex justify-content-center">
+                    <input type="text" class="form-control form-control-lg mr-2" id="city" name="city" placeholder="Enter city name">
+                    <button type="submit" class="btn  btn-lg rounded-circle">
+                        <img src="images/search.png" alt="Search Icon" class="search-icon" >
+                    </button>
+                    <p id="error-message" style="color:red;"></p>
+                </form>
+            </div>
+            <div class="weather text-center">
+                <img src="#" alt="Weather Icon" class="weather-icon mb-3" id="img">
+                <h1 class="temp mb-0"></h1>
+                <h2 class="city mb-4"></h2>
+                <div class="row justify-content-around">
+                    <div class="col text-center">
+                        <img src="images/humidity.png" alt="Humidity Icon" class="small-icon">
+                        <p class="mb-0 text humidity"></p>
+                        <p class="small-text">Humidity</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="images/wind.png" alt="Wind Icon" class="small-icon">
+                        <p class="mb-0 text wind"></p>
+                        <p class="small-text">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="weather.js"></script>
+</body>
+</html>
